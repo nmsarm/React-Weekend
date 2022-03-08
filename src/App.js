@@ -5,6 +5,7 @@ import Saturday from './pages/Saturday';
 import Sunday from './pages/Sunday';
 
 import NavBar from './components/NavBar';
+import ScrollToTop from './components/ScrollToTop';
 
 //router dom
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,6 +13,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <ScrollToTop />
     <Routes>
       <Route path="/" element={<NavBar />}>
         <Route path="/" element={<Home />} />

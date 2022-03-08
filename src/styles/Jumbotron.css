@@ -1,0 +1,29 @@
+.verticalCenterContainer {
+    min-Height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron-title, 
+.jumbotron-desc,
+.jumbotron-btn    {
+    animation: myAnim 1.5s ease 0s 1 normal forwards;
+}
+
+p.lead {
+    font-size: 25px;
+}
+
+/* Animations */
+
+@keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

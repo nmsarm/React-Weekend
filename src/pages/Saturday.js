@@ -21,7 +21,7 @@ const Saturday = () =>{
                 href = "#schedule-section"
                 btntext = "See Activities"
             />
-                <section className="schedule-section" id="schedule-section">
+            <section className="schedule-section" id="schedule-section">
                 <div className="container-fluid verticalCenterContainer bg-light justify-content-center">
                     <div class="table-wrapper">
                         <h3 className="text-center p-3 bg-warning fw-bold">
@@ -61,44 +61,43 @@ const Saturday = () =>{
                 </div>
             </section>
             <div className="container-fluid justify-content-center verticalCenterContainer">
-            <div className="row">
-                <div className="col-lg-12 col-sm-12 d-flex justify-content-center p-5 ">
-                    {/* Card Component - Props */}
-                    <Card 
-                        className = "image1"
-                        img = {reactClass}
-                        title = "IT ELEC4C - React Class"
-                        text = "We had our React class at 7 am to 1 pm. Our professor taught us the use of Props and SCSS and also the use of Cards. We used CodePen for coding."
+                <div className="row">
+                    <div className="col-lg-12 col-sm-12 d-flex justify-content-center p-5 ">
+                        {/* Card Component - Props */}
+                        <Card 
+                            className = "image1"
+                            img = {reactClass}
+                            title = "IT ELEC4C - React Class"
+                            text = "We had our React class at 7 am to 1 pm. Our professor taught us the use of Props and SCSS and also the use of Cards. We used CodePen for coding."
 
-                    />
-                </div>
-                <div className="col-lg-12 col-sm-12 d-flex justify-content-center p-5 ">
-                    {/* Card Component - Props */}
-                    <Card 
-                        img = {marquee}
-                        title = "Lunch, Grocery, and Gala "
-                        text = "I went to Marquee Mall at Angeles City by myself for some 'me' time. I ate lunch, bought groceries, and shopped for a bit."
+                        />
+                    </div>
+                    <div className="col-lg-12 col-sm-12 d-flex justify-content-center p-5 ">
+                        {/* Card Component - Props */}
+                        <Card 
+                            img = {marquee}
+                            title = "Lunch, Grocery, and Gala "
+                            text = "I went to Marquee Mall at Angeles City by myself for some 'me' time. I ate lunch, bought groceries, and shopped for a bit."
 
-                    />
-                </div>
-                <div className="col-lg-12 col-sm-12 d-flex justify-content-center p-5">
-                    {/* Card Component - Props */}
-                    <Card
-                        className = "pic2"
-                        img = {friends}
-                        title = "Drink and Game Night with Friends"
-                        text = "At 10 pm, I catched up with my friends at Discord and played Pusoy Dos online. We had our kwentuhan session."
-                    />
-                </div>
-                <div className="col-lg-12 d-flex justify-content-center p-5">
-                    <video width="520" height="520" controls>
-                        <source src={gamenight} type="video/mp4"/>
-                    </video>
+                        />
+                    </div>
+                    <div className="col-lg-12 col-sm-12 d-flex justify-content-center p-5">
+                        {/* Card Component - Props */}
+                        <Card
+                            className = "pic2"
+                            img = {friends}
+                            title = "Drink and Game Night with Friends"
+                            text = "At 10 pm, I catched up with my friends at Discord and played Pusoy Dos online. We had our kwentuhan session."
+                        />
+                    </div>
+                    <div className="col-lg-12 d-flex justify-content-center p-5">
+                        <video className="shadow-lg rounded" width="520" height="520" controls>
+                            <source src={gamenight} type="video/mp4"/>
+                        </video>
+                    </div>
                 </div>
             </div>
-        </div>
             <Footer />
-
         </>
     );
 }

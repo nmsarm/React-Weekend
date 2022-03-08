@@ -1,13 +1,3 @@
-.verticalCenterContainer {
-    min-Height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-p.lead {
-    font-size: 25px;
-}
-
 /* Pop Up Modal Box */
 .overlay {
     position: fixed;

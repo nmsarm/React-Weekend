@@ -2,7 +2,7 @@
 const Card = (props) => {
     return (
       <>
-       <div class="card" style={{width: "30rem"}}>
+       <div class="card shadow-lg rounded" style={{width: "30rem"}}>
             <img class="card-img-top" src={props.img} alt="Image"/>
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
