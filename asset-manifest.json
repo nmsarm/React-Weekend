@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ReactWeekend/static/css/main.d5478270.css",
+    "main.js": "/ReactWeekend/static/js/main.d15badf8.js",
+    "static/js/787.165f98e0.chunk.js": "/ReactWeekend/static/js/787.165f98e0.chunk.js",
+    "static/media/gamenight.MOV": "/ReactWeekend/static/media/gamenight.a68084d02a323c1cb61c.MOV",
+    "static/media/react-class.png": "/ReactWeekend/static/media/react-class.cb51b55d8a104349a459.png",
+    "static/media/marquee.jpg": "/ReactWeekend/static/media/marquee.cdd81bc09715fb8e0762.jpg",
+    "static/media/friends.jpg": "/ReactWeekend/static/media/friends.eff60bcf2b7cf77bf59e.jpg",
+    "index.html": "/ReactWeekend/index.html",
+    "main.d5478270.css.map": "/ReactWeekend/static/css/main.d5478270.css.map",
+    "main.d15badf8.js.map": "/ReactWeekend/static/js/main.d15badf8.js.map",
+    "787.165f98e0.chunk.js.map": "/ReactWeekend/static/js/787.165f98e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5478270.css",
+    "static/js/main.d15badf8.js"
+  ]
+}
