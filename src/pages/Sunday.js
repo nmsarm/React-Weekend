@@ -5,7 +5,17 @@ import Footer from '../components/Footer';
 // Stylesheet
 import '../styles/Sunday.css'
 
+// Animate on Scroll
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Sunday = () =>{
+
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    }, []);
+
     return(
         <>
              <Jumbotron 
@@ -15,7 +25,7 @@ const Sunday = () =>{
                 btntext = "See Activities"
             />
             <section className="schedule-section" id="schedule-section">
-                <div className="container-fluid verticalCenterContainer bg-light justify-content-center">
+                <div className="container-fluid verticalCenterContainer bg-light justify-content-center" data-aos="fade-up">
                     <div class="table-wrapper">
                         <h3 className="text-center p-3 bg-warning fw-bold">
                             Sunday Activities
