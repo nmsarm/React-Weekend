@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactWeekend/static/css/main.f67a063b.css",
-    "main.js": "/ReactWeekend/static/js/main.1477b7b6.js",
-    "static/js/787.165f98e0.chunk.js": "/ReactWeekend/static/js/787.165f98e0.chunk.js",
-    "static/media/gamenight.MOV": "/ReactWeekend/static/media/gamenight.a68084d02a323c1cb61c.MOV",
-    "static/media/react-class.png": "/ReactWeekend/static/media/react-class.cb51b55d8a104349a459.png",
-    "static/media/marquee.jpg": "/ReactWeekend/static/media/marquee.6e706d1d35cc772a311f.jpg",
-    "static/media/friends.jpg": "/ReactWeekend/static/media/friends.eff60bcf2b7cf77bf59e.jpg",
-    "index.html": "/ReactWeekend/index.html",
-    "main.f67a063b.css.map": "/ReactWeekend/static/css/main.f67a063b.css.map",
-    "main.1477b7b6.js.map": "/ReactWeekend/static/js/main.1477b7b6.js.map",
-    "787.165f98e0.chunk.js.map": "/ReactWeekend/static/js/787.165f98e0.chunk.js.map"
+    "main.css": "/React-Weekend/static/css/main.f67a063b.css",
+    "main.js": "/React-Weekend/static/js/main.bf009430.js",
+    "static/js/787.165f98e0.chunk.js": "/React-Weekend/static/js/787.165f98e0.chunk.js",
+    "static/media/gamenight.MOV": "/React-Weekend/static/media/gamenight.a68084d02a323c1cb61c.MOV",
+    "static/media/react-class.png": "/React-Weekend/static/media/react-class.cb51b55d8a104349a459.png",
+    "static/media/marquee.jpg": "/React-Weekend/static/media/marquee.6e706d1d35cc772a311f.jpg",
+    "static/media/friends.jpg": "/React-Weekend/static/media/friends.eff60bcf2b7cf77bf59e.jpg",
+    "index.html": "/React-Weekend/index.html",
+    "main.f67a063b.css.map": "/React-Weekend/static/css/main.f67a063b.css.map",
+    "main.bf009430.js.map": "/React-Weekend/static/js/main.bf009430.js.map",
+    "787.165f98e0.chunk.js.map": "/React-Weekend/static/js/787.165f98e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f67a063b.css",
-    "static/js/main.1477b7b6.js"
+    "static/js/main.bf009430.js"
   ]
 }
